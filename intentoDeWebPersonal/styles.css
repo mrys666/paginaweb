@@ -1,0 +1,110 @@
+body{
+    background: url("imganes/imgchatgtp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*quitar margenes*/
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    float: left;
+    margin: 0px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+}
+
+h2{
+    margin-top: 90px;
+}
+nav{
+    text-align: end;
+    margin-top: 20px;
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+.icon{
+    width: 45px;
+    height: 50px;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+
+.icon:hover {
+    opacity: 0.8; /* Reduce la opacidad cuando el puntero está sobre el icono */
+    transform: scale(1.1); /* Escala el icono ligeramente al hacer hover */
+    transition: all 0.3s ease; /* Agrega una transición suave para suavizar el efecto */
+}
+
+.icon_redes:hover{
+    opacity: 0.8; /* Reduce la opacidad cuando el puntero está sobre el icono */
+    transform: scale(1.5); /* Escala el icono ligeramente al hacer hover */
+    transition: all 0.3s ease; /* Agrega una transición suave para suavizar el efecto */
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+#redes-sociales{
+    padding: 20px;
+}
+
+#redes-sociales ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+#redes-sociales ul li{
+    display: inline;
+}
+
+#redes-sociales h2{
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+
+footer{
+    color: #fff;
+    text-align: center;
+    margin-top: 220px;
+}
